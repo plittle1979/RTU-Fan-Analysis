@@ -1,0 +1,51 @@
+--internal temp queries
+
+SELECT
+    'RTU 2-1 IAF01' AS source,
+    Date,
+    Value AS Internal_Temp
+FROM "RTU 2-1 Inside Air Fans IAF01 Fan Internal Temp"
+WHERE Date >= '6/1/2024' AND Date < '7/1/2024';
+
+
+
+-- Identify Deviations from a Running Average (IAF01, June Only)
+-- Calculates a 6-point moving average: current row + 5 previous.
+-- Subtracts it from the current value to get a Deviation.
+SELECT
+    Date,
+    Value AS Temp,
+    ROUND(AVG(Value) OVER (
+        ORDER BY Date
+        ROWS BETWEEN 5 PRECEDING AND CURRENT ROW
+    ), 2) AS RunningAvg,
+    ROUND(Value - AVG(Value) OVER (
+        ORDER BY Date
+        ROWS BETWEEN 5 PRECEDING AND CURRENT ROW
+    ), 2) AS Deviation
+FROM "RTU 2-1 Inside Air Fans IAF01 Fan Internal Temp"
+WHERE Date >= '6/1/2024' AND Date < '7/1/2024';
+
+
+
+-- Inner query: calculates running average and deviation.
+-- Outer query: filters to only rows where deviation > 5°F (absolute value).
+-- You can adjust > 5 to any threshold you're interested in.
+
+SELECT *
+FROM (
+    SELECT
+        Date,
+        Value AS Temp,
+        ROUND(AVG(Value) OVER (
+            ORDER BY Date
+            ROWS BETWEEN 5 PRECEDING AND CURRENT ROW
+        ), 2) AS RunningAvg,
+        ROUND(Value - AVG(Value) OVER (
+            ORDER BY Date
+            ROWS BETWEEN 5 PRECEDING AND CURRENT ROW
+        ), 2) AS Deviation
+    FROM "RTU 2-1 Inside Air Fans IAF01 Fan Internal Temp"
+    WHERE Date >= '6/1/2024' AND Date < '7/1/2024'
+)
+WHERE ABS(Deviation) > 50;

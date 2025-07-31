@@ -1,0 +1,21 @@
+powershell to query cheat sheat
+
+# 1. Launch SQLite and open your database
+C:\sqlite\sqlite3.exe "C:\sqlite\RTU_Fan_Analysis\rtu-fan_analysis.db"
+
+-- 2. Turn on headers so columns are labeled
+-- 3. Set output format to clean column view
+-- 4. Optional: Set column widths for readability
+
+.headers ON
+.mode column
+.width 20 25 15
+
+
+
+
+# STEP 1: Change to your scripts folder (adjust path if different)
+cd C:\sqlite\RTU_Fan_Analysis\Scripts
+
+# STEP 2: Run your Python script
+python C:\sqlite\RTU_Fan_Analysis\Scripts\export_rtu_2_1_fan_temps.py
