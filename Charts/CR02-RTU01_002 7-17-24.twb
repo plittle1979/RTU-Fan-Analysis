@@ -1,0 +1,1807 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='CR02-RTU01_002 (CR02-RTU01_002)' inline='true' name='federated.0kuxsh90sshuol1ep8qz90xmvcmp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CR02-RTU01_002' name='excel-direct.01d0z8v13zzhaf1fg2i1h1j1wm2l'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/sqlite/RTU_Fan_Analysis/Processed Data/CR02-RTU01_002.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.01d0z8v13zzhaf1fg2i1h1j1wm2l' name='CR02-RTU01_002' table='[&apos;CR02-RTU01_002$&apos;]' type='table'>
+          <columns gridOrigin='A1:AN10001:no:A1:AN10001:0' header='yes' outcome='6'>
+            <column datatype='real' name='Time  1 - slow sample rate' ordinal='0' />
+            <column datatype='real' name='Brush Delta P' ordinal='1' />
+            <column datatype='real' name='Unit Supply Pressure' ordinal='2' />
+            <column datatype='integer' name='MX840B hardware time slow sample rate' ordinal='3' />
+            <column datatype='real' name='Time2 - slow sample rate' ordinal='4' />
+            <column datatype='real' name='3-MX1609_CH1 - OAF01 INLET' ordinal='5' />
+            <column datatype='real' name='3-MX1609_CH2 - OAF02 INLET' ordinal='6' />
+            <column datatype='real' name='3-MX1609_CH 3  - OAF03 INLET' ordinal='7' />
+            <column datatype='real' name='3-MX1609_CH 4  - OAF04 INLET' ordinal='8' />
+            <column datatype='real' name='3-MX1609_CH 5  - OAF05 INLET' ordinal='9' />
+            <column datatype='real' name='3-MX1609_CH 6  - OAF06 INLET' ordinal='10' />
+            <column datatype='real' name='3-MX1609_CH 7  - OAF07 INLET' ordinal='11' />
+            <column datatype='real' name='3-MX1609_CH 8  - OAF08 INLET' ordinal='12' />
+            <column datatype='real' name='3-MX1609_CH 9 - OAF01 OUTLET' ordinal='13' />
+            <column datatype='real' name='3-MX1609_CH 10 - OAF02 OUTLET' ordinal='14' />
+            <column datatype='real' name='3-MX1609_CH 11 - OAF03 OUTLET' ordinal='15' />
+            <column datatype='real' name='3-MX1609_CH 12 - OAF04 OUTLET' ordinal='16' />
+            <column datatype='real' name='3-MX1609_CH 13 - OAF05 OUTLET' ordinal='17' />
+            <column datatype='real' name='3-MX1609_CH 14 - OAF06 OUTLET' ordinal='18' />
+            <column datatype='real' name='3-MX1609_CH 15 - OAF07 OUTLET' ordinal='19' />
+            <column datatype='real' name='3-MX1609_CH 16 - OAF08 OUTLET' ordinal='20' />
+            <column datatype='integer' name='FAZLI - MX1609 hardware time slow sample rate' ordinal='21' />
+            <column datatype='real' name='Time3 - slow sample rate' ordinal='22' />
+            <column datatype='real' name='MX1609_CH 1 - IAF01 INLET' ordinal='23' />
+            <column datatype='real' name='MX1609_CH 2 - IAF02 INLET' ordinal='24' />
+            <column datatype='real' name='MX1609_CH 3 - IAF03 INLET' ordinal='25' />
+            <column datatype='real' name='MX1609_CH 4 - IAF04 INLET' ordinal='26' />
+            <column datatype='real' name='MX1609_CH 5 - IAF05 INLET' ordinal='27' />
+            <column datatype='real' name='MX1609_CH 6 - IAF06 INLET' ordinal='28' />
+            <column datatype='real' name='MX1609_CH 7 - IAF07 INLET' ordinal='29' />
+            <column datatype='real' name='MX1609_CH 8 - IAF08 INLET' ordinal='30' />
+            <column datatype='real' name='MX1609_CH 9 - IAF01 OUTLET' ordinal='31' />
+            <column datatype='real' name='MX1609_CH 10 - IAF02 OUTLET' ordinal='32' />
+            <column datatype='real' name='MX1609_CH 11 - IAF03 OUTLET' ordinal='33' />
+            <column datatype='real' name='MX1609_CH 12 - IAF04 OUTLET' ordinal='34' />
+            <column datatype='real' name='MX1609_CH 13 - IAF05 OUTLET' ordinal='35' />
+            <column datatype='real' name='MX1609_CH 14 - IAF06 OUTLET' ordinal='36' />
+            <column datatype='real' name='MX1609_CH 15 - IAF07 OUTLET' ordinal='37' />
+            <column datatype='real' name='MX1609_CH 16 - IAF08 OUTLET' ordinal='38' />
+            <column datatype='integer' name='MX1609 hardware time slow sample rate' ordinal='39' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AN10001:no:A1:AN10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time  1 - slow sample rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Time  1 - slow sample rate]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>Time  1 - slow sample rate</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brush Delta P</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Brush Delta P]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>Brush Delta P</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit Supply Pressure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unit Supply Pressure]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>Unit Supply Pressure</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX840B hardware time slow sample rate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MX840B hardware time slow sample rate]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX840B hardware time slow sample rate</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time2 - slow sample rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Time2 - slow sample rate]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>Time2 - slow sample rate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH1 - OAF01 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH1 - OAF01 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH1 - OAF01 INLET</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH2 - OAF02 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH2 - OAF02 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH2 - OAF02 INLET</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 3  - OAF03 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 3  - OAF03 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 3  - OAF03 INLET</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 4  - OAF04 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 4  - OAF04 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 4  - OAF04 INLET</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 5  - OAF05 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 5  - OAF05 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 5  - OAF05 INLET</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 6  - OAF06 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 6  - OAF06 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 6  - OAF06 INLET</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 7  - OAF07 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 7  - OAF07 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 7  - OAF07 INLET</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 8  - OAF08 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 8  - OAF08 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 8  - OAF08 INLET</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 9 - OAF01 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 9 - OAF01 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 9 - OAF01 OUTLET</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 10 - OAF02 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 10 - OAF02 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 10 - OAF02 OUTLET</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 11 - OAF03 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 11 - OAF03 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 11 - OAF03 OUTLET</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 12 - OAF04 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 12 - OAF04 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 12 - OAF04 OUTLET</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 13 - OAF05 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 13 - OAF05 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 13 - OAF05 OUTLET</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 14 - OAF06 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 14 - OAF06 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 14 - OAF06 OUTLET</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 15 - OAF07 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 15 - OAF07 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 15 - OAF07 OUTLET</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-MX1609_CH 16 - OAF08 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3-MX1609_CH 16 - OAF08 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>3-MX1609_CH 16 - OAF08 OUTLET</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FAZLI - MX1609 hardware time slow sample rate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FAZLI - MX1609 hardware time slow sample rate]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>FAZLI - MX1609 hardware time slow sample rate</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time3 - slow sample rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Time3 - slow sample rate]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>Time3 - slow sample rate</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 1 - IAF01 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 1 - IAF01 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 1 - IAF01 INLET</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 2 - IAF02 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 2 - IAF02 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 2 - IAF02 INLET</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 3 - IAF03 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 3 - IAF03 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 3 - IAF03 INLET</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 4 - IAF04 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 4 - IAF04 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 4 - IAF04 INLET</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 5 - IAF05 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 5 - IAF05 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 5 - IAF05 INLET</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 6 - IAF06 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 6 - IAF06 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 6 - IAF06 INLET</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 7 - IAF07 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 7 - IAF07 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 7 - IAF07 INLET</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 8 - IAF08 INLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 8 - IAF08 INLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 8 - IAF08 INLET</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 9 - IAF01 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 9 - IAF01 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 9 - IAF01 OUTLET</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 10 - IAF02 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 10 - IAF02 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 10 - IAF02 OUTLET</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 11 - IAF03 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 11 - IAF03 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 11 - IAF03 OUTLET</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 12 - IAF04 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 12 - IAF04 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 12 - IAF04 OUTLET</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 13 - IAF05 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 13 - IAF05 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 13 - IAF05 OUTLET</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 14 - IAF06 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 14 - IAF06 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 14 - IAF06 OUTLET</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 15 - IAF07 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 15 - IAF07 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 15 - IAF07 OUTLET</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609_CH 16 - IAF08 OUTLET</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MX1609_CH 16 - IAF08 OUTLET]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609_CH 16 - IAF08 OUTLET</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MX1609 hardware time slow sample rate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MX1609 hardware time slow sample rate]</local-name>
+            <parent-name>[CR02-RTU01_002]</parent-name>
+            <remote-alias>MX1609 hardware time slow sample rate</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='3-Mx1609 Ch 10 - Oaf02 Outlet' datatype='real' name='[3-MX1609_CH 10 - OAF02 OUTLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 11 - Oaf03 Outlet' datatype='real' name='[3-MX1609_CH 11 - OAF03 OUTLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 12 - Oaf04 Outlet' datatype='real' name='[3-MX1609_CH 12 - OAF04 OUTLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 13 - Oaf05 Outlet' datatype='real' name='[3-MX1609_CH 13 - OAF05 OUTLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 14 - Oaf06 Outlet' datatype='real' name='[3-MX1609_CH 14 - OAF06 OUTLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 15 - Oaf07 Outlet' datatype='real' name='[3-MX1609_CH 15 - OAF07 OUTLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 16 - Oaf08 Outlet' datatype='real' name='[3-MX1609_CH 16 - OAF08 OUTLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 3  - Oaf03 Inlet' datatype='real' name='[3-MX1609_CH 3  - OAF03 INLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 4  - Oaf04 Inlet' datatype='real' name='[3-MX1609_CH 4  - OAF04 INLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 5  - Oaf05 Inlet' datatype='real' name='[3-MX1609_CH 5  - OAF05 INLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 6  - Oaf06 Inlet' datatype='real' name='[3-MX1609_CH 6  - OAF06 INLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 7  - Oaf07 Inlet' datatype='real' name='[3-MX1609_CH 7  - OAF07 INLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 8  - Oaf08 Inlet' datatype='real' name='[3-MX1609_CH 8  - OAF08 INLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch 9 - Oaf01 Outlet' datatype='real' name='[3-MX1609_CH 9 - OAF01 OUTLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch1 - Oaf01 Inlet' datatype='real' name='[3-MX1609_CH1 - OAF01 INLET]' role='measure' type='quantitative' />
+      <column caption='3-Mx1609 Ch2 - Oaf02 Inlet' datatype='real' name='[3-MX1609_CH2 - OAF02 INLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 1 - Iaf01 Inlet' datatype='real' name='[MX1609_CH 1 - IAF01 INLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 10 - Iaf02 Outlet' datatype='real' name='[MX1609_CH 10 - IAF02 OUTLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 11 - Iaf03 Outlet' datatype='real' name='[MX1609_CH 11 - IAF03 OUTLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 12 - Iaf04 Outlet' datatype='real' name='[MX1609_CH 12 - IAF04 OUTLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 13 - Iaf05 Outlet' datatype='real' name='[MX1609_CH 13 - IAF05 OUTLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 14 - Iaf06 Outlet' datatype='real' name='[MX1609_CH 14 - IAF06 OUTLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 15 - Iaf07 Outlet' datatype='real' name='[MX1609_CH 15 - IAF07 OUTLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 16 - Iaf08 Outlet' datatype='real' name='[MX1609_CH 16 - IAF08 OUTLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 2 - Iaf02 Inlet' datatype='real' name='[MX1609_CH 2 - IAF02 INLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 3 - Iaf03 Inlet' datatype='real' name='[MX1609_CH 3 - IAF03 INLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 4 - Iaf04 Inlet' datatype='real' name='[MX1609_CH 4 - IAF04 INLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 5 - Iaf05 Inlet' datatype='real' name='[MX1609_CH 5 - IAF05 INLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 6 - Iaf06 Inlet' datatype='real' name='[MX1609_CH 6 - IAF06 INLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 7 - Iaf07 Inlet' datatype='real' name='[MX1609_CH 7 - IAF07 INLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 8 - Iaf08 Inlet' datatype='real' name='[MX1609_CH 8 - IAF08 INLET]' role='measure' type='quantitative' />
+      <column caption='Mx1609 Ch 9 - Iaf01 Outlet' datatype='real' name='[MX1609_CH 9 - IAF01 OUTLET]' role='measure' type='quantitative' />
+      <column datatype='date' datatype-customized='true' name='[Time  1 - slow sample rate]' role='dimension' type='ordinal' />
+      <column caption='CR02-RTU01_002' datatype='table' name='[__tableau_internal_object_id__].[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Paul/AppData/Local/Temp/TableauTemp/#TableauTemp_0bi1rea0unswsy12h3g4x18ykyt4.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/01/2025 03:16:45 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Time  1 - slow sample rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Time  1 - slow sample rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Time  1 - slow sample rate</remote-alias>
+              <ordinal>0</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Brush Delta P</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Brush Delta P]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Brush Delta P</remote-alias>
+              <ordinal>1</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>109117</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unit Supply Pressure</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Unit Supply Pressure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unit Supply Pressure</remote-alias>
+              <ordinal>2</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>134306</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX840B hardware time slow sample rate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MX840B hardware time slow sample rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX840B hardware time slow sample rate</remote-alias>
+              <ordinal>3</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Time2 - slow sample rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Time2 - slow sample rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Time2 - slow sample rate</remote-alias>
+              <ordinal>4</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH1 - OAF01 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH1 - OAF01 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH1 - OAF01 INLET</remote-alias>
+              <ordinal>5</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>375347</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH2 - OAF02 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH2 - OAF02 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH2 - OAF02 INLET</remote-alias>
+              <ordinal>6</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 3  - OAF03 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 3  - OAF03 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 3  - OAF03 INLET</remote-alias>
+              <ordinal>7</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 4  - OAF04 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 4  - OAF04 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 4  - OAF04 INLET</remote-alias>
+              <ordinal>8</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 5  - OAF05 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 5  - OAF05 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 5  - OAF05 INLET</remote-alias>
+              <ordinal>9</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 6  - OAF06 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 6  - OAF06 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 6  - OAF06 INLET</remote-alias>
+              <ordinal>10</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 7  - OAF07 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 7  - OAF07 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 7  - OAF07 INLET</remote-alias>
+              <ordinal>11</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 8  - OAF08 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 8  - OAF08 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 8  - OAF08 INLET</remote-alias>
+              <ordinal>12</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 9 - OAF01 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 9 - OAF01 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 9 - OAF01 OUTLET</remote-alias>
+              <ordinal>13</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>375347</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 10 - OAF02 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 10 - OAF02 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 10 - OAF02 OUTLET</remote-alias>
+              <ordinal>14</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 11 - OAF03 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 11 - OAF03 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 11 - OAF03 OUTLET</remote-alias>
+              <ordinal>15</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 12 - OAF04 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 12 - OAF04 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 12 - OAF04 OUTLET</remote-alias>
+              <ordinal>16</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 13 - OAF05 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 13 - OAF05 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 13 - OAF05 OUTLET</remote-alias>
+              <ordinal>17</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 14 - OAF06 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 14 - OAF06 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 14 - OAF06 OUTLET</remote-alias>
+              <ordinal>18</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 15 - OAF07 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 15 - OAF07 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 15 - OAF07 OUTLET</remote-alias>
+              <ordinal>19</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-MX1609_CH 16 - OAF08 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[3-MX1609_CH 16 - OAF08 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-MX1609_CH 16 - OAF08 OUTLET</remote-alias>
+              <ordinal>20</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FAZLI - MX1609 hardware time slow sample rate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[FAZLI - MX1609 hardware time slow sample rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FAZLI - MX1609 hardware time slow sample rate</remote-alias>
+              <ordinal>21</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Time3 - slow sample rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Time3 - slow sample rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Time3 - slow sample rate</remote-alias>
+              <ordinal>22</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 1 - IAF01 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 1 - IAF01 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 1 - IAF01 INLET</remote-alias>
+              <ordinal>23</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 2 - IAF02 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 2 - IAF02 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 2 - IAF02 INLET</remote-alias>
+              <ordinal>24</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 3 - IAF03 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 3 - IAF03 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 3 - IAF03 INLET</remote-alias>
+              <ordinal>25</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 4 - IAF04 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 4 - IAF04 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 4 - IAF04 INLET</remote-alias>
+              <ordinal>26</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>375347</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 5 - IAF05 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 5 - IAF05 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 5 - IAF05 INLET</remote-alias>
+              <ordinal>27</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 6 - IAF06 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 6 - IAF06 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 6 - IAF06 INLET</remote-alias>
+              <ordinal>28</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 7 - IAF07 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 7 - IAF07 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 7 - IAF07 INLET</remote-alias>
+              <ordinal>29</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>375347</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 8 - IAF08 INLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 8 - IAF08 INLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 8 - IAF08 INLET</remote-alias>
+              <ordinal>30</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 9 - IAF01 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 9 - IAF01 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 9 - IAF01 OUTLET</remote-alias>
+              <ordinal>31</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 10 - IAF02 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 10 - IAF02 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 10 - IAF02 OUTLET</remote-alias>
+              <ordinal>32</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 11 - IAF03 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 11 - IAF03 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 11 - IAF03 OUTLET</remote-alias>
+              <ordinal>33</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 12 - IAF04 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 12 - IAF04 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 12 - IAF04 OUTLET</remote-alias>
+              <ordinal>34</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 13 - IAF05 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 13 - IAF05 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 13 - IAF05 OUTLET</remote-alias>
+              <ordinal>35</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>364568</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 14 - IAF06 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 14 - IAF06 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 14 - IAF06 OUTLET</remote-alias>
+              <ordinal>36</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>375347</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 15 - IAF07 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 15 - IAF07 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 15 - IAF07 OUTLET</remote-alias>
+              <ordinal>37</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609_CH 16 - IAF08 OUTLET</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MX1609_CH 16 - IAF08 OUTLET]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609_CH 16 - IAF08 OUTLET</remote-alias>
+              <ordinal>38</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>386126</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MX1609 hardware time slow sample rate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MX1609 hardware time slow sample rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MX1609 hardware time slow sample rate</remote-alias>
+              <ordinal>39</ordinal>
+              <family>CR02-RTU01_002</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>396904</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='CR02-RTU01_002' id='CR02-RTU01!002_35227E7A5D1B459CAF9A232F61A13AA3'>
+            <properties context=''>
+              <relation connection='excel-direct.01d0z8v13zzhaf1fg2i1h1j1wm2l' name='CR02-RTU01_002' table='[&apos;CR02-RTU01_002$&apos;]' type='table'>
+                <columns gridOrigin='A1:AN10001:no:A1:AN10001:0' header='yes' outcome='6'>
+                  <column datatype='real' name='Time  1 - slow sample rate' ordinal='0' />
+                  <column datatype='real' name='Brush Delta P' ordinal='1' />
+                  <column datatype='real' name='Unit Supply Pressure' ordinal='2' />
+                  <column datatype='integer' name='MX840B hardware time slow sample rate' ordinal='3' />
+                  <column datatype='real' name='Time2 - slow sample rate' ordinal='4' />
+                  <column datatype='real' name='3-MX1609_CH1 - OAF01 INLET' ordinal='5' />
+                  <column datatype='real' name='3-MX1609_CH2 - OAF02 INLET' ordinal='6' />
+                  <column datatype='real' name='3-MX1609_CH 3  - OAF03 INLET' ordinal='7' />
+                  <column datatype='real' name='3-MX1609_CH 4  - OAF04 INLET' ordinal='8' />
+                  <column datatype='real' name='3-MX1609_CH 5  - OAF05 INLET' ordinal='9' />
+                  <column datatype='real' name='3-MX1609_CH 6  - OAF06 INLET' ordinal='10' />
+                  <column datatype='real' name='3-MX1609_CH 7  - OAF07 INLET' ordinal='11' />
+                  <column datatype='real' name='3-MX1609_CH 8  - OAF08 INLET' ordinal='12' />
+                  <column datatype='real' name='3-MX1609_CH 9 - OAF01 OUTLET' ordinal='13' />
+                  <column datatype='real' name='3-MX1609_CH 10 - OAF02 OUTLET' ordinal='14' />
+                  <column datatype='real' name='3-MX1609_CH 11 - OAF03 OUTLET' ordinal='15' />
+                  <column datatype='real' name='3-MX1609_CH 12 - OAF04 OUTLET' ordinal='16' />
+                  <column datatype='real' name='3-MX1609_CH 13 - OAF05 OUTLET' ordinal='17' />
+                  <column datatype='real' name='3-MX1609_CH 14 - OAF06 OUTLET' ordinal='18' />
+                  <column datatype='real' name='3-MX1609_CH 15 - OAF07 OUTLET' ordinal='19' />
+                  <column datatype='real' name='3-MX1609_CH 16 - OAF08 OUTLET' ordinal='20' />
+                  <column datatype='integer' name='FAZLI - MX1609 hardware time slow sample rate' ordinal='21' />
+                  <column datatype='real' name='Time3 - slow sample rate' ordinal='22' />
+                  <column datatype='real' name='MX1609_CH 1 - IAF01 INLET' ordinal='23' />
+                  <column datatype='real' name='MX1609_CH 2 - IAF02 INLET' ordinal='24' />
+                  <column datatype='real' name='MX1609_CH 3 - IAF03 INLET' ordinal='25' />
+                  <column datatype='real' name='MX1609_CH 4 - IAF04 INLET' ordinal='26' />
+                  <column datatype='real' name='MX1609_CH 5 - IAF05 INLET' ordinal='27' />
+                  <column datatype='real' name='MX1609_CH 6 - IAF06 INLET' ordinal='28' />
+                  <column datatype='real' name='MX1609_CH 7 - IAF07 INLET' ordinal='29' />
+                  <column datatype='real' name='MX1609_CH 8 - IAF08 INLET' ordinal='30' />
+                  <column datatype='real' name='MX1609_CH 9 - IAF01 OUTLET' ordinal='31' />
+                  <column datatype='real' name='MX1609_CH 10 - IAF02 OUTLET' ordinal='32' />
+                  <column datatype='real' name='MX1609_CH 11 - IAF03 OUTLET' ordinal='33' />
+                  <column datatype='real' name='MX1609_CH 12 - IAF04 OUTLET' ordinal='34' />
+                  <column datatype='real' name='MX1609_CH 13 - IAF05 OUTLET' ordinal='35' />
+                  <column datatype='real' name='MX1609_CH 14 - IAF06 OUTLET' ordinal='36' />
+                  <column datatype='real' name='MX1609_CH 15 - IAF07 OUTLET' ordinal='37' />
+                  <column datatype='real' name='MX1609_CH 16 - IAF08 OUTLET' ordinal='38' />
+                  <column datatype='integer' name='MX1609 hardware time slow sample rate' ordinal='39' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='22'>CR02-RTU01_002 Data Sample</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CR02-RTU01_002 (CR02-RTU01_002)' name='federated.0kuxsh90sshuol1ep8qz90xmvcmp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kuxsh90sshuol1ep8qz90xmvcmp'>
+            <column caption='3-Mx1609 Ch 16 - Oaf08 Outlet' datatype='real' name='[3-MX1609_CH 16 - OAF08 OUTLET]' role='measure' type='quantitative' />
+            <column caption='3-Mx1609 Ch 8  - Oaf08 Inlet' datatype='real' name='[3-MX1609_CH 8  - OAF08 INLET]' role='measure' type='quantitative' />
+            <column caption='Mx1609 Ch 1 - Iaf01 Inlet' datatype='real' name='[MX1609_CH 1 - IAF01 INLET]' role='measure' type='quantitative' />
+            <column caption='Mx1609 Ch 9 - Iaf01 Outlet' datatype='real' name='[MX1609_CH 9 - IAF01 OUTLET]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Time2 - slow sample rate]' role='measure' type='quantitative' />
+            <column-instance column='[MX1609_CH 1 - IAF01 INLET]' derivation='None' name='[none:MX1609_CH 1 - IAF01 INLET:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MX1609_CH 9 - IAF01 OUTLET]' derivation='None' name='[none:MX1609_CH 9 - IAF01 OUTLET:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Time2 - slow sample rate]' derivation='None' name='[none:Time2 - slow sample rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[3-MX1609_CH 16 - OAF08 OUTLET]' derivation='Sum' name='[sum:3-MX1609_CH 16 - OAF08 OUTLET:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[3-MX1609_CH 8  - OAF08 INLET]' derivation='Sum' name='[sum:3-MX1609_CH 8  - OAF08 INLET:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0kuxsh90sshuol1ep8qz90xmvcmp].[none:Time2 - slow sample rate:qk]' scope='cols' value='' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0kuxsh90sshuol1ep8qz90xmvcmp].[none:Time2 - slow sample rate:qk]' value='20' />
+            <format attr='font-size' field='[federated.0kuxsh90sshuol1ep8qz90xmvcmp].[none:MX1609_CH 1 - IAF01 INLET:qk]' value='8' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0kuxsh90sshuol1ep8qz90xmvcmp].[none:MX1609_CH 1 - IAF01 INLET:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0kuxsh90sshuol1ep8qz90xmvcmp].[none:MX1609_CH 9 - IAF01 OUTLET:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0kuxsh90sshuol1ep8qz90xmvcmp].[sum:3-MX1609_CH 8  - OAF08 INLET:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0kuxsh90sshuol1ep8qz90xmvcmp].[sum:3-MX1609_CH 16 - OAF08 OUTLET:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+        </panes>
+        <rows>([federated.0kuxsh90sshuol1ep8qz90xmvcmp].[none:MX1609_CH 1 - IAF01 INLET:qk] + ([federated.0kuxsh90sshuol1ep8qz90xmvcmp].[none:MX1609_CH 9 - IAF01 OUTLET:qk] + ([federated.0kuxsh90sshuol1ep8qz90xmvcmp].[sum:3-MX1609_CH 8  - OAF08 INLET:qk] + [federated.0kuxsh90sshuol1ep8qz90xmvcmp].[sum:3-MX1609_CH 16 - OAF08 OUTLET:qk])))</rows>
+        <cols>[federated.0kuxsh90sshuol1ep8qz90xmvcmp].[none:Time2 - slow sample rate:qk]</cols>
+      </table>
+      <simple-id uuid='{4E89617C-2324-4DAD-BD07-63E347DB6D96}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0kuxsh90sshuol1ep8qz90xmvcmp].[sum:Time  1 - slow sample rate:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{47276281-31FC-46C5-81C0-1D64CE0DC74E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      c/SMtjdsVQcAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

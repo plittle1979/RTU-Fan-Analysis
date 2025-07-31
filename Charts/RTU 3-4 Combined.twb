@@ -1,0 +1,1800 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Combined (RTU 3-4 Combined June &amp; July)' inline='true' name='federated.18eya3b1pz4gen1ag3wsg15pj1s3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='RTU 3-4 Combined June &amp; July' name='excel-direct.1bg3vbi0cqtt0410t2ht90abrezr'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/sqlite/RTU_Fan_Analysis/Processed Data/RTU 3-4 Combined June &amp; July.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1bg3vbi0cqtt0410t2ht90abrezr' name='Combined' table='[Combined$]' type='table'>
+          <columns gridOrigin='A1:AS10001:no:A1:AS10001:0' header='yes' outcome='6'>
+            <column datatype='datetime' date-parse-format='MM/dd/yyyy HH:mm:ss zzz' name='OAT Date' ordinal='0' />
+            <column datatype='real' name='OAT' ordinal='1' />
+            <column datatype='string' name='RAT Date' ordinal='2' />
+            <column datatype='real' name='RAT' ordinal='3' />
+            <column datatype='string' name='SA Temp Date' ordinal='4' />
+            <column datatype='real' name='SA Temp' ordinal='5' />
+            <column datatype='string' name='OAH Date' ordinal='6' />
+            <column datatype='real' name='OAH' ordinal='7' />
+            <column datatype='string' name='OAF  Spd Cmd Date' ordinal='8' />
+            <column datatype='real' name='OAF Spd Cmd' ordinal='9' />
+            <column datatype='string' name='HW spd Command Date' ordinal='10' />
+            <column datatype='real' name='HW Spd Command' ordinal='11' />
+            <column datatype='datetime' name='Fan Date' ordinal='12' />
+            <column datatype='real' name='IAF01 Internal' ordinal='13' />
+            <column datatype='real' name='IAF01 IGBT' ordinal='14' />
+            <column datatype='real' name='IAF02 Internal' ordinal='15' />
+            <column datatype='real' name='IAF02 IGBT' ordinal='16' />
+            <column datatype='real' name='IAF03 Internal' ordinal='17' />
+            <column datatype='real' name='IAF03 IGBT' ordinal='18' />
+            <column datatype='real' name='IAF04 Internal' ordinal='19' />
+            <column datatype='real' name='IAF04 IGBT' ordinal='20' />
+            <column datatype='real' name='IAF05 Internal' ordinal='21' />
+            <column datatype='real' name='IAF05 IGBT' ordinal='22' />
+            <column datatype='real' name='IAF06 Internal' ordinal='23' />
+            <column datatype='real' name='IAF06 IGBT' ordinal='24' />
+            <column datatype='real' name='IAF07 Internal' ordinal='25' />
+            <column datatype='real' name='IAF07 IGBT' ordinal='26' />
+            <column datatype='real' name='IAF08 Internal' ordinal='27' />
+            <column datatype='real' name='IAF08 IGBT' ordinal='28' />
+            <column datatype='real' name='OAF01 Internal' ordinal='29' />
+            <column datatype='real' name='OAF01 IGBT' ordinal='30' />
+            <column datatype='real' name='OAF02 Internal' ordinal='31' />
+            <column datatype='real' name='OAF02 IGBT' ordinal='32' />
+            <column datatype='real' name='OAF03 Internal' ordinal='33' />
+            <column datatype='real' name='OAF03 IGBT' ordinal='34' />
+            <column datatype='real' name='OAF04 Internal' ordinal='35' />
+            <column datatype='real' name='OAF04 IGBT' ordinal='36' />
+            <column datatype='real' name='OAF05 Internal' ordinal='37' />
+            <column datatype='real' name='OAF05 IGBT' ordinal='38' />
+            <column datatype='real' name='OAF06 Internal' ordinal='39' />
+            <column datatype='real' name='OAF06 IGBT' ordinal='40' />
+            <column datatype='real' name='OAF07 Internal' ordinal='41' />
+            <column datatype='real' name='OAF07 IGBT' ordinal='42' />
+            <column datatype='real' name='OAF08 Internal' ordinal='43' />
+            <column datatype='real' name='OAF08 IGBT' ordinal='44' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AS10001:no:A1:AS10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAT Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OAT Date]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAT Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAT</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAT Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[RAT Date]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>RAT Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RAT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>RAT</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SA Temp Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SA Temp Date]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>SA Temp Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SA Temp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SA Temp]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>SA Temp</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAH Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OAH Date]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAH Date</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAH]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAH</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF  Spd Cmd Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OAF  Spd Cmd Date]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF  Spd Cmd Date</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF Spd Cmd</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF Spd Cmd]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF Spd Cmd</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HW spd Command Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[HW spd Command Date]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>HW spd Command Date</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HW Spd Command</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HW Spd Command]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>HW Spd Command</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fan Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Fan Date]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>Fan Date</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF01 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF01 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF01 Internal</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF01 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF01 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF01 IGBT</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF02 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF02 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF02 Internal</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF02 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF02 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF02 IGBT</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF03 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF03 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF03 Internal</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF03 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF03 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF03 IGBT</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF04 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF04 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF04 Internal</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF04 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF04 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF04 IGBT</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF05 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF05 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF05 Internal</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF05 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF05 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF05 IGBT</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF06 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF06 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF06 Internal</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF06 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF06 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF06 IGBT</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF07 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF07 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF07 Internal</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF07 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF07 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF07 IGBT</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF08 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF08 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF08 Internal</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IAF08 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IAF08 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>IAF08 IGBT</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF01 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF01 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF01 Internal</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF01 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF01 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF01 IGBT</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF02 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF02 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF02 Internal</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF02 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF02 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF02 IGBT</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF03 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF03 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF03 Internal</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF03 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF03 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF03 IGBT</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF04 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF04 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF04 Internal</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF04 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF04 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF04 IGBT</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF05 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF05 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF05 Internal</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF05 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF05 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF05 IGBT</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF06 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF06 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF06 Internal</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF06 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF06 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF06 IGBT</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF07 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF07 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF07 Internal</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF07 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF07 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF07 IGBT</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF08 Internal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF08 Internal]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF08 Internal</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OAF08 IGBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OAF08 IGBT]</local-name>
+            <parent-name>[Combined]</parent-name>
+            <remote-alias>OAF08 IGBT</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Iaf01 Igbt' datatype='real' name='[IAF01 IGBT]' role='measure' type='quantitative' />
+      <column caption='Iaf02 Igbt' datatype='real' name='[IAF02 IGBT]' role='measure' type='quantitative' />
+      <column caption='Iaf03 Igbt' datatype='real' name='[IAF03 IGBT]' role='measure' type='quantitative' />
+      <column caption='Iaf04 Igbt' datatype='real' name='[IAF04 IGBT]' role='measure' type='quantitative' />
+      <column caption='Iaf05 Igbt' datatype='real' name='[IAF05 IGBT]' role='measure' type='quantitative' />
+      <column caption='Iaf06 Igbt' datatype='real' name='[IAF06 IGBT]' role='measure' type='quantitative' />
+      <column caption='Iaf07 Igbt' datatype='real' name='[IAF07 IGBT]' role='measure' type='quantitative' />
+      <column caption='Iaf08 Igbt' datatype='real' name='[IAF08 IGBT]' role='measure' type='quantitative' />
+      <column caption='Oaf01 Igbt' datatype='real' name='[OAF01 IGBT]' role='measure' type='quantitative' />
+      <column caption='Oaf02 Igbt' datatype='real' name='[OAF02 IGBT]' role='measure' type='quantitative' />
+      <column caption='Oaf03 Igbt' datatype='real' name='[OAF03 IGBT]' role='measure' type='quantitative' />
+      <column caption='Oaf04 Igbt' datatype='real' name='[OAF04 IGBT]' role='measure' type='quantitative' />
+      <column caption='Oaf05 Igbt' datatype='real' name='[OAF05 IGBT]' role='measure' type='quantitative' />
+      <column caption='Oaf06 Igbt' datatype='real' name='[OAF06 IGBT]' role='measure' type='quantitative' />
+      <column caption='Oaf07 Igbt' datatype='real' name='[OAF07 IGBT]' role='measure' type='quantitative' />
+      <column caption='Oaf08 Igbt' datatype='real' name='[OAF08 IGBT]' role='measure' type='quantitative' />
+      <column datatype='datetime' datatype-customized='true' name='[OAT Date]' role='dimension' type='ordinal' />
+      <column caption='Combined' datatype='table' name='[__tableau_internal_object_id__].[Combined_6A45D046FC424BB5A9AE8ABB516807BC]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Paul/AppData/Local/Temp/TableauTemp/#TableauTemp_0wm5omx06s87go17bay7f0anlhj2.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/10/2025 07:08:28 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table'>
+            <columns>
+              <column datatype='datetime' date-parse-format='MM/dd/yyyy HH:mm:ss zzz' name='OAT Date' />
+            </columns>
+          </relation>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>OAT Date</remote-name>
+              <remote-type>7</remote-type>
+              <local-name>[OAT Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAT Date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Combined</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAT</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3188</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RAT Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[RAT Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RAT Date</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Combined</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>95936</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RAT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RAT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RAT</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>489</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SA Temp Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SA Temp Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SA Temp Date</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Combined</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>96252</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SA Temp</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SA Temp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SA Temp</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>700</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAH Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[OAH Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAH Date</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Combined</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>96252</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAH</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAH</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13185</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF  Spd Cmd Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[OAF  Spd Cmd Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF  Spd Cmd Date</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Combined</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>175385</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF Spd Cmd</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF Spd Cmd]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF Spd Cmd</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2081</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HW spd Command Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[HW spd Command Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HW spd Command Date</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Combined</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>161850</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HW Spd Command</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[HW Spd Command]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HW Spd Command</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>113186</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fan Date</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Fan Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fan Date</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Combined</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>110407</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF01 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF01 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF01 Internal</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>348</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF01 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF01 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF01 IGBT</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>431</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF02 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF02 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF02 Internal</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>356</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF02 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF02 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF02 IGBT</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>459</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF03 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF03 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF03 Internal</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>402</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF03 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF03 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF03 IGBT</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>403</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF04 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF04 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF04 Internal</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>375</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF04 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF04 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF04 IGBT</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>404</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF05 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF05 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF05 Internal</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>388</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF05 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF05 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF05 IGBT</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>445</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF06 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF06 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF06 Internal</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>329</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF06 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF06 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF06 IGBT</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>405</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF07 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF07 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF07 Internal</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>376</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF07 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF07 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF07 IGBT</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>390</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF08 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF08 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF08 Internal</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>302</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IAF08 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IAF08 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IAF08 IGBT</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>446</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF01 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF01 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF01 Internal</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1214</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF01 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF01 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF01 IGBT</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1433</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF02 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF02 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF02 Internal</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1130</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF02 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF02 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF02 IGBT</remote-alias>
+              <ordinal>32</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1391</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF03 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF03 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF03 Internal</remote-alias>
+              <ordinal>33</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1182</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF03 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF03 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF03 IGBT</remote-alias>
+              <ordinal>34</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1528</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF04 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF04 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF04 Internal</remote-alias>
+              <ordinal>35</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1666</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF04 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF04 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF04 IGBT</remote-alias>
+              <ordinal>36</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1475</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF05 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF05 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF05 Internal</remote-alias>
+              <ordinal>37</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1028</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF05 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF05 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF05 IGBT</remote-alias>
+              <ordinal>38</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1290</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF06 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF06 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF06 Internal</remote-alias>
+              <ordinal>39</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>964</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF06 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF06 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF06 IGBT</remote-alias>
+              <ordinal>40</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1361</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF07 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF07 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF07 Internal</remote-alias>
+              <ordinal>41</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1029</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF07 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF07 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF07 IGBT</remote-alias>
+              <ordinal>42</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1070</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF08 Internal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF08 Internal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF08 Internal</remote-alias>
+              <ordinal>43</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1114</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OAF08 IGBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[OAF08 IGBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OAF08 IGBT</remote-alias>
+              <ordinal>44</ordinal>
+              <family>Combined</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1155</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Combined_6A45D046FC424BB5A9AE8ABB516807BC]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Combined' id='Combined_6A45D046FC424BB5A9AE8ABB516807BC'>
+            <properties context=''>
+              <relation connection='excel-direct.1bg3vbi0cqtt0410t2ht90abrezr' name='Combined' table='[Combined$]' type='table'>
+                <columns gridOrigin='A1:AS10001:no:A1:AS10001:0' header='yes' outcome='6'>
+                  <column datatype='datetime' date-parse-format='MM/dd/yyyy HH:mm:ss zzz' name='OAT Date' ordinal='0' />
+                  <column datatype='real' name='OAT' ordinal='1' />
+                  <column datatype='string' name='RAT Date' ordinal='2' />
+                  <column datatype='real' name='RAT' ordinal='3' />
+                  <column datatype='string' name='SA Temp Date' ordinal='4' />
+                  <column datatype='real' name='SA Temp' ordinal='5' />
+                  <column datatype='string' name='OAH Date' ordinal='6' />
+                  <column datatype='real' name='OAH' ordinal='7' />
+                  <column datatype='string' name='OAF  Spd Cmd Date' ordinal='8' />
+                  <column datatype='real' name='OAF Spd Cmd' ordinal='9' />
+                  <column datatype='string' name='HW spd Command Date' ordinal='10' />
+                  <column datatype='real' name='HW Spd Command' ordinal='11' />
+                  <column datatype='datetime' name='Fan Date' ordinal='12' />
+                  <column datatype='real' name='IAF01 Internal' ordinal='13' />
+                  <column datatype='real' name='IAF01 IGBT' ordinal='14' />
+                  <column datatype='real' name='IAF02 Internal' ordinal='15' />
+                  <column datatype='real' name='IAF02 IGBT' ordinal='16' />
+                  <column datatype='real' name='IAF03 Internal' ordinal='17' />
+                  <column datatype='real' name='IAF03 IGBT' ordinal='18' />
+                  <column datatype='real' name='IAF04 Internal' ordinal='19' />
+                  <column datatype='real' name='IAF04 IGBT' ordinal='20' />
+                  <column datatype='real' name='IAF05 Internal' ordinal='21' />
+                  <column datatype='real' name='IAF05 IGBT' ordinal='22' />
+                  <column datatype='real' name='IAF06 Internal' ordinal='23' />
+                  <column datatype='real' name='IAF06 IGBT' ordinal='24' />
+                  <column datatype='real' name='IAF07 Internal' ordinal='25' />
+                  <column datatype='real' name='IAF07 IGBT' ordinal='26' />
+                  <column datatype='real' name='IAF08 Internal' ordinal='27' />
+                  <column datatype='real' name='IAF08 IGBT' ordinal='28' />
+                  <column datatype='real' name='OAF01 Internal' ordinal='29' />
+                  <column datatype='real' name='OAF01 IGBT' ordinal='30' />
+                  <column datatype='real' name='OAF02 Internal' ordinal='31' />
+                  <column datatype='real' name='OAF02 IGBT' ordinal='32' />
+                  <column datatype='real' name='OAF03 Internal' ordinal='33' />
+                  <column datatype='real' name='OAF03 IGBT' ordinal='34' />
+                  <column datatype='real' name='OAF04 Internal' ordinal='35' />
+                  <column datatype='real' name='OAF04 IGBT' ordinal='36' />
+                  <column datatype='real' name='OAF05 Internal' ordinal='37' />
+                  <column datatype='real' name='OAF05 IGBT' ordinal='38' />
+                  <column datatype='real' name='OAF06 Internal' ordinal='39' />
+                  <column datatype='real' name='OAF06 IGBT' ordinal='40' />
+                  <column datatype='real' name='OAF07 Internal' ordinal='41' />
+                  <column datatype='real' name='OAF07 IGBT' ordinal='42' />
+                  <column datatype='real' name='OAF08 Internal' ordinal='43' />
+                  <column datatype='real' name='OAF08 IGBT' ordinal='44' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table'>
+                <columns>
+                  <column datatype='datetime' date-parse-format='MM/dd/yyyy HH:mm:ss zzz' name='OAT Date' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>RTU 3-4 Combined Data</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Combined (RTU 3-4 Combined June &amp; July)' name='federated.18eya3b1pz4gen1ag3wsg15pj1s3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18eya3b1pz4gen1ag3wsg15pj1s3'>
+            <column datatype='datetime' name='[Fan Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[OAH]' role='measure' type='quantitative' />
+            <column datatype='real' name='[OAT]' role='measure' type='quantitative' />
+            <column datatype='real' name='[RAT]' role='measure' type='quantitative' />
+            <column datatype='real' name='[SA Temp]' role='measure' type='quantitative' />
+            <column-instance column='[OAH]' derivation='Sum' name='[sum:OAH:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OAT]' derivation='Sum' name='[sum:OAT:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[RAT]' derivation='Sum' name='[sum:RAT:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SA Temp]' derivation='Sum' name='[sum:SA Temp:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fan Date]' derivation='Day-Trunc' name='[tdy:Fan Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[tdy:Fan Date:qk]' included-values='in-range'>
+            <min>#2024-06-28 00:00:00#</min>
+            <max>#2024-07-13 23:59:59#</max>
+          </filter>
+          <slices>
+            <column>[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[tdy:Fan Date:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:OAT:qk]' />
+              <color column='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:RAT:qk]' />
+            </encodings>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:OAH:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:OAT:qk]' />
+              <color column='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:RAT:qk]' />
+            </encodings>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:OAT:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:OAT:qk]' />
+              <color column='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:RAT:qk]' />
+            </encodings>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:SA Temp:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:OAT:qk]' />
+              <color column='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:RAT:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:OAH:qk] + ([federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:OAT:qk] + [federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:SA Temp:qk]))</rows>
+        <cols>[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[tdy:Fan Date:qk]</cols>
+      </table>
+      <simple-id uuid='{F725945E-5EB2-4826-A26A-BD2C48ED5830}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='7' param='[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:RAT:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[none:OAF02 IGBT:qk]</field>
+            <field>[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[none:OAF02 Internal:qk]</field>
+            <field>[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[none:OAF04 IGBT:qk]</field>
+            <field>[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[none:OAT:qk]</field>
+            <field>[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:IAF07 Internal:qk]</field>
+            <field>[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[sum:RAT:qk]</field>
+            <field>[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[tmi:Fan Date:qk]</field>
+            <field>[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[yr:Fan Date:ok]</field>
+            <field>[federated.18eya3b1pz4gen1ag3wsg15pj1s3].[yr:OAT Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1651D8F3-763C-4E94-AE61-FF3AF2D2D791}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
